@@ -1,3 +1,5 @@
 package com.example.dependencyinjectiontask
 
-class Mouse
+import javax.inject.Inject
+
+class Mouse @Inject constructor()
