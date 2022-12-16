@@ -1,8 +1,10 @@
 package com.example.dependencyinjectiontask
 
+import javax.inject.Inject
+
 class Activity {
 
-    lateinit var computer: Computer
+    @Inject
     lateinit var keyboard: Keyboard
 
     init {

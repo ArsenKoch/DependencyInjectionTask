@@ -20,7 +20,6 @@ class Component {
     }
 
     fun inject(activity: Activity) {
-        activity.computer = getComputerValues()
         activity.keyboard = Keyboard()
     }
 }
