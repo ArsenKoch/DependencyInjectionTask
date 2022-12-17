@@ -5,9 +5,11 @@ import  dagger.Component
 @Component
 interface NewComponent {
 
-    fun inject(activity: Activity)
+//    fun inject(activity: Activity)
 
-//    fun getKeyboard(): Keyboard
-//
-//    fun getMouse(): Mouse
+    fun getMonitor(): Monitor
+
+    fun getKeyboard(): Keyboard
+
+    fun getMouse(): Mouse
 }

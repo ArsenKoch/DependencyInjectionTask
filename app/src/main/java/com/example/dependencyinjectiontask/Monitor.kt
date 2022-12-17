@@ -1,3 +1,5 @@
 package com.example.dependencyinjectiontask
 
-class Monitor
+import javax.inject.Inject
+
+class Monitor @Inject constructor()
