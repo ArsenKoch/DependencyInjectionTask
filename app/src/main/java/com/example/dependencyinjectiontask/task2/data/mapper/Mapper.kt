@@ -1,8 +1,8 @@
 package com.example.dependencyinjectiontask.task2.data.mapper
 
-class Mapper {
+import javax.inject.Inject
 
-    fun map(){
+class Mapper @Inject constructor() {
 
-    }
+    fun map() {}
 }

@@ -4,8 +4,9 @@ import com.example.dependencyinjectiontask.task2.data.mapper.Mapper
 import com.example.dependencyinjectiontask.task2.data.datasource.LocalDataSource
 import com.example.dependencyinjectiontask.task2.data.datasource.RemoteDataSource
 import com.example.dependencyinjectiontask.task2.domain.Repository
+import javax.inject.Inject
 
-class RepositoryImpl(
+class RepositoryImpl @Inject constructor(
     private val localDataSource: LocalDataSource,
     private val remoteDataSource: RemoteDataSource,
     private val mapper: Mapper

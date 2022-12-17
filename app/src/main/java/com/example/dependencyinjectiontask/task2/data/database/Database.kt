@@ -1,8 +1,9 @@
 package com.example.dependencyinjectiontask.task2.data.database
 
 import android.util.Log
+import javax.inject.Inject
 
-class Database {
+class Database @Inject constructor(){
 
     fun method() {
         Log.d(LOG_TAG, "Database")

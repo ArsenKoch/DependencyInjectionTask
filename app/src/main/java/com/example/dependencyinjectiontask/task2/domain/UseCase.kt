@@ -1,6 +1,8 @@
 package com.example.dependencyinjectiontask.task2.domain
 
-class UseCase(
+import javax.inject.Inject
+
+class UseCase @Inject constructor(
     private val repository: Repository
 ) {
 
