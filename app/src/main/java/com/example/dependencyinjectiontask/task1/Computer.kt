@@ -1,4 +1,4 @@
-package com.example.dependencyinjectiontask
+package com.example.dependencyinjectiontask.task1
 
 class Computer(
     val monitor: Monitor,
